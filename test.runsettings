@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RunSettings>
+	<TestRunParameters>
+		<Parameter name="pageurl" value="http://automationpractice.com/index.php" />
+		<Parameter name="browser" value="chrome" />
+	</TestRunParameters>
+</RunSettings>
