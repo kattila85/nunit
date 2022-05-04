@@ -20,7 +20,7 @@ namespace NunitWebshopTest.Tests
             productDetailsPage.PageIsLive();
 
             Item detailedItem = productDetailsPage.GetProductDetails();
-            Assert.AreEqual(selectedItem.itemName, detailedItem.itemName, "The name is different.");
+            Assert.AreEqual(selectedItem.itemName, detailedItem.itemName, "The name is different value");
             test.Pass("Check item's name. Name in main page is " + selectedItem.itemName + " Name in details page is " + selectedItem.itemName);
           
            
